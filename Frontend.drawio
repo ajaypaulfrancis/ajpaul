@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-04-26T05:25:11.488Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" version="14.6.6" etag="SpDXHJfEcIEIkOEoJeEs" type="github"><diagram id="1u-TbYIKkZUMihfAzO4K">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-26T05:47:04.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="o6wpiNhWTbg_zlNGfLLC" version="14.6.6" type="github">
+  <diagram id="1u-TbYIKkZUMihfAzO4K" name="Page-1">
+    <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-1" value="RDS -pgsql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2z7wvFZcaoWpWTt5EHDZ-2" target="2z7wvFZcaoWpWTt5EHDZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-2" value="API-GW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2z7wvFZcaoWpWTt5EHDZ-3" target="2z7wvFZcaoWpWTt5EHDZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-3" value="Lambda&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2z7wvFZcaoWpWTt5EHDZ-5" target="2z7wvFZcaoWpWTt5EHDZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2z7wvFZcaoWpWTt5EHDZ-5" target="2z7wvFZcaoWpWTt5EHDZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-5" value="Javascript Frontend&lt;br&gt;AWS AppSync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="770" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2z7wvFZcaoWpWTt5EHDZ-8" target="2z7wvFZcaoWpWTt5EHDZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-8" value="Tower" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="20" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-12" value="Actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="780" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2z7wvFZcaoWpWTt5EHDZ-13" target="2z7wvFZcaoWpWTt5EHDZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2z7wvFZcaoWpWTt5EHDZ-13" value="SNOW" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="10" width="120" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
